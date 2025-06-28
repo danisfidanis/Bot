@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 tree = app_commands.CommandTree(bot)
 
 # Get IDs from env or hardcode
-GUILD_ID = int(os.getenv("GUILD_ID", "YOUR_GUILD_ID"))  # Replace if not using env
+GUILD_ID = int(os.getenv("GUILD_ID", "YOUR_GUILD_ID"))  
 VERIFICATION_CHANNEL_ID = int(os.getenv("VERIFICATION_CHANNEL_ID", "YOUR_CHANNEL_ID"))
 PLAYER_ROLE_NAME = "player"
 
